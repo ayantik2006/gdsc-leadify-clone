@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import RealResults from './components/RealResults/RealResults';
 import Footer from './components/Footer/Footer';
+import CTA from './components/CTA/CTA';
+import Testominals from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -10,8 +12,9 @@ function App() {
       <style>{`
         body { margin: 0; background-color: #1a1a1a; }
       `}</style>
-
+      <CTA/>
       <RealResults />
+      <Testominals/>
       <Footer />
     </div>
   );
