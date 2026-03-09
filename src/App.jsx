@@ -14,10 +14,10 @@ function App() {
         body { margin: 0; background-color: #1a1a1a; }
       `}</style>
       <Hero/>
-      <CTA/>
+      {/* <CTA/>
       <RealResults />
       <Testominals/>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
